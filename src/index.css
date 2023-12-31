@@ -114,3 +114,21 @@ h2{
 .second{
   padding: 2rem
 }
+.testimonials{
+  background-color:#F6F6F6;
+  display:flex;
+}
+.testimonials h1{
+  font-size:3.5rem;
+  font-weight:600
+}
+.testimonials h2{
+  font-weight:400
+}
+.testimonials h1+h2{
+  font-weight:700
+}
+.testimonials > div{
+  width:17rem;
+  padding:2rem
+}
