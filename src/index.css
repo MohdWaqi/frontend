@@ -5,4 +5,112 @@ font-family: 'Poppins', sans-serif;
 }
 h1{
   font-size:2rem;
+  color:#12406F
+}
+.carouselPage p{
+  margin:1rem 0
+}
+.carouselPage{
+  padding-top:6rem;
+  height:60vh;
+  background-color: #EBEBEB;
+  display:flex;
+  justify-content:space-between;
+}
+.carouselPage > div{
+  margin: 7rem;
+  width:30%
+}
+.carouselPage >  img{
+  height:100%;
+  float:right;
+  margin-right:0
+}
+.btn img{
+  margin-left:1rem;
+}
+.btn{
+  background-color: #12406F;
+  border: none;
+  color:white;
+  padding: 0.8rem 1.5rem;
+  display:flex;
+  align-items:center;
+  border-radius:1rem;
+  font-weight:500;
+}
+
+.vertical{
+height: 73vh
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet-active { 
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background-color:white;
+  height: 2rem
+}
+p{
+  color:#525252
+}
+section{
+  padding: 3rem 0 4rem 5rem
+}
+.details >img{
+  width:3.5rem
+}
+.exam, .details {
+  display: flex;
+}
+.details{
+  align-items: flex-start;
+  gap:1rem
+}
+h2{
+  font-size:1.2rem;
+  font-weight:600;
+  color:#12406F
+}
+.exam > div{
+  width: 18%;
+  padding:2rem
+} 
+.exam >:first-child{
+  border-right: 2px solid lightgray
+}
+.exam >:first-child p{
+  font-size:0.8rem
+}
+.card{
+  background-color:#12406F;
+  width: 25rem;
+  padding: 2rem;
+  border-radius:2rem
+}
+.card  h2, .card p{
+  color:white;
+}
+.card >div{
+  display: flex;
+  align-items: center
+}
+.card img{
+  width: 1.5rem;
+  margin-left:1rem
+}
+.card> h2+p{
+  margin:2rem 0
+}
+.second{
+  padding: 2rem
 }

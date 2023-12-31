@@ -9,10 +9,12 @@ nav{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     width: 97%;
     position:fixed;
+    z-index:4
 }
 nav > h1{
     margin-left:5rem;
-    font-size:1.7rem
+    font-size:1.7rem;
+    color:white;
 }
 .menubar h4+img{
     width:1rem;
@@ -43,7 +45,7 @@ margin:1rem;
 color:#525252
 }
 .menubar div+div p:hover{
-    scale:1.2
+    scale:1.2;
 }
 nav> h1+div >img{
     width:2rem;
