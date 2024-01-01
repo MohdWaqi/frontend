@@ -8,6 +8,15 @@ import expand from "./assets/expand.svg"
 import collapse from "./assets/collapse.svg"
 import triangle from "./assets/polygon.svg"
 import mobile from "./assets/mobile.svg"
+import facebook from "./assets/facebook.svg"
+import linkedin from "./assets/linkedin.svg"
+import instagram from "./assets/instagram.svg"
+import twitter from "./assets/twitter.svg"
+import youtube from "./assets/youtube.svg"
+import quora from "./assets/quora.svg"
+import location from "./assets/location.svg"
+import watch from "./assets/watch.svg"
+import travel from "./assets/travel.svg"
 
 import {
   Accordion,
@@ -21,7 +30,7 @@ import {
 const App = () => {
   const closeBtn = useRef(null)
   return (
-    <div>
+    <div id="app">
       <Navbar />
       <div className="vertical">
         <FirstCarousel />
@@ -128,6 +137,33 @@ const App = () => {
         </div>
         <img src={mobile}/>
       </section>
+      <footer>
+      <div>
+        <h3>Contact us</h3>
+        <p>Address: amet, consetetur sadipscing elitr, sed diam</p> 
+        <p>Email id: eirmod tempor invidunt ut labore et dolore</p> 
+        <p>Phone no: 123456789</p>
+      </div>
+      <div>
+        <h3>Follow us</h3>
+        <div>
+        <img src={facebook} alt="facebook"/>
+        <img src={linkedin} alt="linkedin"/>
+        <img src={instagram} alt="instagram"/>
+        <img src={twitter} alt="twitter"/>
+        <img src={youtube} alt="youtube"/>
+        <img src={quora} alt="quora"/>
+        </div>
+      </div>
+      <div>
+        <h3>Head Office</h3>
+        <div><img src={location} alt="location"/><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p></div>
+        <div><img src={watch} alt="time"/><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p></div>
+        <div><img src={watch} alt="time"/><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p></div>
+        <div><img src={travel} alt="travel"/><p>Lorem ipsum asd asdsaweeq Lorem Ipsum</p></div>
+      </div>
+      </footer>
+      <div className="copyright">© 2024 All Rights Reserved. Privacy Policy by Mohd Waqi Pervez</div>
     </div>
   );
 };
