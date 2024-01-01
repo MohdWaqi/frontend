@@ -1,8 +1,24 @@
-# React + Vite
+# Frontend Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> - This is the decent design of normally animated websites.
+> - It is responsive.
 
-Currently, two official plugins are available:
+## Deploy Link
+> https://mohdwaqi.github.io/frontend/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Desktop View
+[![Frontend-Assignment-Google-Chrome-01-01-2024-18-01-50.png](https://i.postimg.cc/8CwTCcVr/Frontend-Assignment-Google-Chrome-01-01-2024-18-01-50.png)](https://postimg.cc/zLLstJvJ)
+
+## Mobile View
+[![Photos-01-01-2024-18-04-29.png](https://i.postimg.cc/sxCz6hYq/Photos-01-01-2024-18-04-29.png)](https://postimg.cc/zb7433PF)
+
+## Tech Stack Used
+> - HTML
+> - CSS
+> - JavaScript
+> - React.js
+> - Git
+> - Javascript Utilities
+
+## Developer
+> [@MohdWaqi](https://github.com/MohdWaqi)

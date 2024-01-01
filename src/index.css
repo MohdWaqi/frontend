@@ -311,7 +311,8 @@ section{
 footer{
   padding:0;
   flex-direction:column;
-  height:max-content
+  height:max-content;
+  background-position: 50% 100%
 }
 
 footer>:first-child,footer>:nth-child(2) , footer>:last-child{
