@@ -9,7 +9,7 @@ const SingleTestimonial = ({total, matter}) => {
         
     <div>
           <h2>Lorem ipsum</h2>
-          <h1>{ countingOn && <CountUp end={total} duration={2}/>}+</h1>
+          <h1>{ countingOn && <CountUp end={total} duration={2} delay={0.8}/>}+</h1>
           <h2>Lorem ipsum</h2>
           <p>{matter}</p>
         </div>

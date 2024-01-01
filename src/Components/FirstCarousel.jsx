@@ -22,7 +22,7 @@ const FirstCarousel = () => {
       >
         <SwiperSlide><div className="carouselPage">
         <div>
-          <h1>Lorem ipsum</h1>
+          <h1>Lorem ipsum 1</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             scelerisque, nisl ut pretium semper, tortor nunc malesuada purus, in
@@ -36,7 +36,7 @@ const FirstCarousel = () => {
       </div></SwiperSlide>
         <SwiperSlide><div className="carouselPage">
         <div>
-          <h1>Lorem ipsum</h1>
+          <h1>Lorem ipsum 2</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             scelerisque, nisl ut pretium semper, tortor nunc malesuada purus, in
@@ -50,7 +50,7 @@ const FirstCarousel = () => {
       </div></SwiperSlide>
         <SwiperSlide><div className="carouselPage">
         <div>
-          <h1>Lorem ipsum</h1>
+          <h1>Lorem ipsum 3</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
             scelerisque, nisl ut pretium semper, tortor nunc malesuada purus, in

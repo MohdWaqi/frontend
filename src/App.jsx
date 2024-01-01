@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import Navbar from "./Components/navbar";
 import FirstCarousel from "./Components/FirstCarousel";
 import ExamDetails from "./Components/ExamDetails";
-import SecondCarousel from "./SecondCarousel";
+import SecondCarousel from "./Components/SecondCarousel";
 import SingleTestimonial from "./Components/SingleTestimonial";
 import expand from "./assets/expand.svg"
 import collapse from "./assets/collapse.svg"
