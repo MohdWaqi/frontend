@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Navbar from "./Components/navbar";
+import Navbar from "./Components/Navbar";
 import FirstCarousel from "./Components/FirstCarousel";
 import ExamDetails from "./Components/ExamDetails";
 import SecondCarousel from "./Components/SecondCarousel";
