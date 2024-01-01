@@ -6,6 +6,8 @@ import SecondCarousel from "./SecondCarousel";
 import SingleTestimonial from "./Components/SingleTestimonial";
 import expand from "./assets/expand.svg"
 import collapse from "./assets/collapse.svg"
+import triangle from "./assets/polygon.svg"
+import mobile from "./assets/mobile.svg"
 
 import {
   Accordion,
@@ -114,8 +116,17 @@ const App = () => {
             </AccordionItem>
         </Accordion>
       </section>
-      <section>
-        
+      <section id="subscribe">
+        <div>
+          <h1>Subscribe</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus, massa sit amet ullamcorper mollis, lacu</p>
+          <div>
+            
+          <input placeholder="Enter your Email Address"/>
+          <button className="btn">Subscribe Now <img src={triangle} /></button>
+          </div>
+        </div>
+        <img src={mobile}/>
       </section>
     </div>
   );

@@ -133,7 +133,8 @@ h2{
   padding:2rem
 }
 #faq{
-  margin: 5rem
+  margin: 5rem;
+  margin-bottom:0
 }
 #faq > h1{
   text-align:center;
@@ -150,3 +151,34 @@ h2{
   padding-right:30rem;
   border-bottom: 1px solid lightgray;
 }
+#subscribe >:first-child > div{
+display: flex;
+margin:2rem 0
+}
+#subscribe input{
+  width:20rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right:1rem;
+  height: 2rem
+}
+#subscribe input:focus{
+  outline:none
+}
+
+#subscribe{
+  display: flex;
+  margin:0 4rem
+}
+#subscribe> img{
+  width:40%
+}
+#subscribe p{
+  padding-right:20rem
+}
+#subscribe .btn{
+ height:3rem
+}
+
