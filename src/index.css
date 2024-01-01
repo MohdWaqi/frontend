@@ -132,3 +132,21 @@ h2{
   width:17rem;
   padding:2rem
 }
+#faq{
+  margin: 5rem
+}
+#faq > h1{
+  text-align:center;
+  margin-bottom:4rem
+}
+.questions{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid lightgray
+}
+.answer{
+  padding: 3rem 0;
+  padding-right:30rem;
+  border-bottom: 1px solid lightgray;
+}

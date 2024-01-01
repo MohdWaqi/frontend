@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
 import Navbar from "./Components/navbar";
 import FirstCarousel from "./Components/FirstCarousel";
 import ExamDetails from "./Components/ExamDetails";
 import SecondCarousel from "./SecondCarousel";
 import SingleTestimonial from "./Components/SingleTestimonial";
+import expand from "./assets/expand.svg"
+import collapse from "./assets/collapse.svg"
+
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+  AccordionItemState,
+} from 'react-accessible-accordion';
 
 const App = () => {
+  const closeBtn = useRef(null)
   return (
     <div>
       <Navbar />
@@ -51,6 +63,59 @@ const App = () => {
             lectus mollis condimentum dapibus. Sed erat lacus, sodales vel
             placerat vitae, euismod quis elit"
         />
+      </section>
+      <section id="faq">
+        <h1>FAQ</h1>
+        <Accordion allowZeroExpanded>
+            <AccordionItem>
+                <AccordionItemHeading className="questions">
+                        How does an investor gain access to MF Utility?
+                    <AccordionItemButton>
+                    <AccordionItemState>
+                    {({ expanded }) =>(expanded ?<img src={collapse} alt="collapse" />:<img src={expand} alt="expand"/> )}
+                    </AccordionItemState>
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p className="answer">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus, massa sit amet ullamcorper mollis, lacus nunc porta urna, eu efficitur est mi sit amet metus. Nulla ac enim iaculis, commodo neque sit amet, vestibulum odio. Donec vitae neque rutrum, mollis risus non, euismod odio.
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+            <AccordionItemHeading className="questions">
+                        Will Investors be able to have multiple Common  Account Numbers?
+                    <AccordionItemButton>
+                    <AccordionItemState>
+                    {({ expanded }) =>(expanded ?<img src={collapse} alt="collapse" />:<img src={expand} alt="expand"/> )}
+                    </AccordionItemState>
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p className="answer">
+                    Fusce ut placerat massa, egestas condimentum velit. Donec rutrum lectus mollis condimentum dapibus. Sed erat lacus, sodales vel placerat vitae, euismod quis elit.
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem>
+            <AccordionItemHeading className="questions">
+                        How does an investor gain access to MF Utility?
+                    <AccordionItemButton>
+                    <AccordionItemState>
+                    {({ expanded }) =>(expanded ?<img src={collapse} alt="collapse" />:<img src={expand} alt="expand"/> )}
+                    </AccordionItemState>
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p className="answer">
+                    Aliquam ultricies ultrices aliquam. Sed at massa a leo pretium viverra non non ipsum. Ae
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+        </Accordion>
+      </section>
+      <section>
+        
       </section>
     </div>
   );
